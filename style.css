@@ -1,0 +1,144 @@
+*{
+	align-content: center;
+}
+body {
+	background: lightgrey;
+	color: darkblue;
+	text-align: center;
+	font-family: avenir, serif;
+
+}
+h3{
+	font-size: 40px;
+	font-family: avenir, serif;
+	color: black;
+	margin-top: 30px;
+	
+}
+
+img{
+	border-radius: 50%;
+	width: 200px;
+	border: 15px black;
+	padding-bottom: 15px;
+	size: 50%;
+}
+
+h2{
+	font-family: avenir,serif;
+
+}
+
+p{
+	font-family: avenir,serif;
+}
+
+.fa-linkedin, .fa-facebook, .fa-instagram {
+	font-size: 40px;
+	color:black;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.fa-linkedin:hover, .fa-facebook:hover, .fa-instagram:hover {
+  color: darkred;
+  text-decoration: none;
+}
+ul{
+	line-height: 2;
+	font-family: avenir, serif;
+	list-style: none;
+	text-decoration: none;
+	padding-inline-start: 0px;
+
+}
+
+h1{
+	font-family: avenir, serif;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-top: 15px;
+}
+
+
+.container{
+	/*width: 600px;*/
+	margin:0 auto ;
+}
+
+.card-white{
+	background:rgb(210 210 210);
+	padding: 20px;
+	border-radius:10px ;
+	width: 700px;
+	margin:30px auto;
+	box-shadow: 0 10px 90px grey;
+}
+.fa-wine-glass-alt, .fa-beer, .fa-lira-sign, .fa-pepper-hot{
+	padding: 20px;
+}
+
+.fa-wine-glass-alt:hover, .fa-beer:hover, .fa-lira-sign:hover, .fa-pepper-hot:hover{
+	color: lightcoral;
+	text-decoration: none;
+}
+
+.EHL{
+	background:rgba(0,0,135,0.8)
+	width:70px;
+	border-radius: 10px;
+	color: white;
+	font-family:futura,serif;
+	font-size: 14px;
+	box-shadow:0 2px 3px #302f2f;
+  margin: 0 auto;
+  padding: 10px 12px;
+}
+
+.EHL:hover {
+	color: lightgrey;
+	text-decoration: none;
+	background-color: rgba(0,0,135,0.8);
+}
+
+@media (max-width: 720px) {
+	body{
+		background-color:darkred;
+		margin: 0 auto;
+	}
+		.card-white {
+		width: 500px;
+			
+	}
+
+}
+
+
+@media (max-width: 540px) {
+	.card-white {
+		width: 300px;
+	}
+
+	.EHL {
+	  padding: 20px;
+	  margin-top: 20px;
+	}
+
+	body{
+		font-size: 30px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
